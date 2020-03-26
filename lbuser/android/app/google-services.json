@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "324011225110",
+    "firebase_url": "https://lifeboat-6a88d.firebaseio.com",
+    "project_id": "lifeboat-6a88d",
+    "storage_bucket": "lifeboat-6a88d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:324011225110:android:a417e8462289a4ee290537",
+        "android_client_info": {
+          "package_name": "com.example.lbuser"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "324011225110-n0omgmu5t4c1tp991a2os6granmfiblg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lbuser",
+            "certificate_hash": "3932b1e145b35c9c233b92f39685947ef52f909e"
+          }
+        },
+        {
+          "client_id": "324011225110-5mudc45qun2jkvpqhmbao2679i2a8f63.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0T1H4FVP6xO-fhk6GWX8lVTHSUJUBllA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "324011225110-5mudc45qun2jkvpqhmbao2679i2a8f63.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
