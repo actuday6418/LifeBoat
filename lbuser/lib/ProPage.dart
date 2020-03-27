@@ -71,10 +71,10 @@ class _ProPageState extends State<ProPage> {
                                   padding: EdgeInsets.only(top: 30),
                                   child: Text(infoFromBackend["name"],
                                       style: TextStyle(
-                                          fontSize: 30,
+                                          fontSize: 35,
                                           fontWeight: FontWeight.bold))),
                               Padding(
-                                  padding: EdgeInsets.only(top: 30),
+                                  padding: EdgeInsets.only(top: 20),
                                   child: Text(infoFromBackend["position"],
                                       style: TextStyle(
                                           fontSize: 20,
@@ -86,7 +86,7 @@ class _ProPageState extends State<ProPage> {
                                     crossAxisAlignment: CrossAxisAlignment.start,
                                     children: <Widget>[
                                       Padding(
-                                          padding: EdgeInsets.only(top: 8,right: 130),
+                                          padding: EdgeInsets.only(left: 20, top: 8,right: 130),
                                           child: Text(infoFromBackend["cost"],
                                               style: TextStyle(
                                                 fontSize: 30,
@@ -124,7 +124,9 @@ class _ProPageState extends State<ProPage> {
                               color: Colors.white,
                               borderRadius: BorderRadius.all(
                                   Radius.circular(20))),
-                          child: Row(
+                          child: Padding(
+                            padding: EdgeInsets.all(20 ),
+                              child: Row(
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: <Widget>[
                               Column(
@@ -148,7 +150,7 @@ class _ProPageState extends State<ProPage> {
                                     )
                                   ])
                             ],
-                          ))),
+                          ) ))),
                   Padding(
                       padding: EdgeInsets.only(top: 30),
                       child: Container(
@@ -197,6 +199,7 @@ class _ProPageState extends State<ProPage> {
                               Container(
                                   height: 400,
                                   child: ListView.builder(
+                                      physics: NeverScrollableScrollPhysics(),
                                       itemBuilder: (context, index) {
                                         return Padding(
                                             padding: EdgeInsets.only(
