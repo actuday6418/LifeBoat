@@ -328,6 +328,7 @@ class _HomeState extends State<Home> {
                                               borderRadius: BorderRadius.all(
                                                   Radius.circular(20))),
                                           child: ListView.builder(
+                                              physics: NeverScrollableScrollPhysics(),
                                               scrollDirection: Axis.vertical,
                                               shrinkWrap: true,
                                               itemCount: favMusic.length,
@@ -342,6 +343,7 @@ class _HomeState extends State<Home> {
                                     backgroundColor: Colors.amber,
                                   ),
                                   ExpansionTile(
+                                    
                                     title: Text("Videos",
                                         style: TextStyle(
                                             fontFamily: sfontFamily,
@@ -358,6 +360,7 @@ class _HomeState extends State<Home> {
                                               borderRadius: BorderRadius.all(
                                                   Radius.circular(20))),
                                           child: ListView.builder(
+                                              physics: NeverScrollableScrollPhysics(),
                                               scrollDirection: Axis.vertical,
                                               shrinkWrap: true,
                                               itemCount: favVideos.length,
